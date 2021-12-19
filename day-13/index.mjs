@@ -122,3 +122,5 @@ const part1 = () => {
   console.log("Part 2:", "FGKCKBZG");
   paper.print();
 };
+
+part1();

@@ -88,8 +88,6 @@ class Paper {
   print() {
     const double = this.width > 10;
 
-    // console.log(double ? "   " : " ", [...Array(this.width)].map((_, i) => i).join(" "));
-
     this.grid.forEach((row, i) => {
       console.log(row.join(""));
     });
